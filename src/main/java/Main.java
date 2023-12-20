@@ -12,5 +12,11 @@ public class Main {
 
         Dog dog = new Dog("Bodri");
         dog.makeSound();
+
+        Cat anotherCat = new Cat("Tom");
+        Dog anotherDog = new Dog("Odie");
+
+        cat.makeSound();
+        dog.makeSound();
     }
 }
